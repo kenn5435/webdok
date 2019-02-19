@@ -20,11 +20,11 @@
 
 .bg-billedeStor {
 
-    background-image: url(/img/billede-paa-vej.jpg);
     height: 100%;
     width: 100%;
     background-position: center center;
     background-repeat: no-repeat;
+    background-color: black;
 
 }
 

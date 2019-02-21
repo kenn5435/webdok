@@ -1,9 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800,900');
+
+
+
+body {
+    background-color: black;
+
+}
+
+
+
+p {
+    color: white;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 100;
+}
+
+
+h1 {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-90%, -50%);
+    color: white;
+    width: 50%;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 55px;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
+    letter-spacing: 3px;
+
+}
+
+h2 {
+    color: white;
+}
+
+li {
+    color: white;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.h1-center {
+    text-align: center;
+    width: 100%;
+    color: white;
+    text-shadow: 0px 0px 10px rgba57, 255, 20, 1);
+}
+
+
 .scroll-line {
     position: fixed;
     top: 0;
     left: 0;
-    height: 5px;
-    background-color: red;
+    height: 7px;
+    background: rgb(6, 193, 255);
+    background: linear-gradient(90deg, rgba(6, 193, 255, 1) 0%, rgba(117, 0, 255, 1) 100%);
     z-index: 1;
 }
 
@@ -13,13 +69,21 @@
     background-image: url(/img/banner_1.jpg);
     height: 100%;
     width: 100%;
-    background-position: center center;
+    background-position: center top;
     background-repeat: no-repeat;
 
 }
 
-.bg-billedeStor {
+.hero-image {
+    background-image: url("/img/banner_1.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
 
+.bg-billedeStor {
     height: 100%;
     width: 100%;
     background-position: center center;
@@ -43,21 +107,23 @@
     position: relative;
     overflow: hidden;
     min-height: 120px;
+
 }
 
 .quote-card p {
-    font-size: 16px;
+    font-size: 30px;
     line-height: 1.5;
     margin: 0;
-    max-width: 80%;
+    max-width: 100%;
+    font-weight: 100;
 }
 
 .quote-card cite {
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 10px;
     display: block;
-    font-weight: 200;
-    opacity: 0.8;
+    font-weight: bolder;
+    color: white;
 }
 
 .quote-card:before {
@@ -67,7 +133,7 @@
     top: 10px;
     left: 10px;
     font-size: 5em;
-    color: rgba(238, 238, 238, 0.8);
+    color: rgba(255, 255, 255);
     font-weight: normal;
 }
 
@@ -84,5 +150,6 @@ hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
     border: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid;
+    border-color: white;
 }
